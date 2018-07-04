@@ -1,0 +1,33 @@
+{
+  "name": "reservations_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 4000 ",
+    "build": "next build",
+    "start": "next start -p 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^1.1.0",
+    "apollo-boost": "^0.1.10",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "js-cookie": "^2.2.0",
+    "jss": "latest",
+    "moment": "^2.22.2",
+    "next": "latest",
+    "node-fetch": "^2.1.2",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-apollo": "^2.1.8",
+    "react-dom": "latest",
+    "react-jss": "latest"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
